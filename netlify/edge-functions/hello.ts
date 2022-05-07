@@ -1,6 +1,6 @@
 // netlify/edge-functions/hello.ts
 
-import type { Context } from 'netlify:edge'
+import type { Context } from 'netlify:edge';
 
 export default async (request: Request, context: Context) => {
   /*
