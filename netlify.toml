@@ -4,6 +4,7 @@
   framework = "#static"
 
 [build]
+  base = "/"
   command = "echo No build for this site, we are living on the edge"
   publish = "public"
 
