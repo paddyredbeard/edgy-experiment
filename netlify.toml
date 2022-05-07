@@ -1,5 +1,4 @@
 # netlify.toml
-
 [dev]
   framework = "#static"
 
@@ -10,6 +9,10 @@
 [[edge_functions]]
   path = "/hello"
   function = "hello"
+
+[[edge_functions]]
+  path = "/hw"
+  function = "hw"
 
 [[edge_functions]]
   path = "/geo"
