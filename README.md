@@ -1,5 +1,8 @@
-title: The Edge Serverless Functions on Netlify
+# Edgy Experiment - Serverless Functions on Netlify
+
+```yaml
+title: Edgy Experiment - Serverless Functions on Netlify  
 author: Paddy Redbeard <paddyredbeard@duck.com>
-source: https://whitep4nth3r.com/blog/what-is-the-edge-serverless-functions/
----
-# The Edge Serverless Functions on Netlify
+reference: https://whitep4nth3r.com/blog/what-is-the-edge-serverless-functions/
+```
+
