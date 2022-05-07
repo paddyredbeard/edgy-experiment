@@ -1,5 +1,3 @@
-// netlify/edge-functions/hello.ts
-
 import type { Context } from 'netlify:edge';
 import quotes from "../../public/quotes.json" assert { type: 'json' };
 

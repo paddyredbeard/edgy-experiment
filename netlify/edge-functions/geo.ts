@@ -1,4 +1,4 @@
-import { Context } from "netlify:edge";
+import type { Context } from "netlify:edge";
 
 export default async (request: Request, context: Context) => {
   // Here's what's available on context.geo
@@ -16,7 +16,6 @@ export default async (request: Request, context: Context) => {
   //     },
   //   }
   // }
-  //
 
   return context.json({
     geo: context.geo,

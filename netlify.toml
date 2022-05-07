@@ -1,4 +1,3 @@
-# netlify.toml
 [dev]
   framework = "#static"
 
@@ -21,8 +20,4 @@
 [[edge_functions]]
   path = "/quote"
   function = "quote"
-
-[[edge_functions]]
-  path = "/whereami"
-  function = "geo"
 
