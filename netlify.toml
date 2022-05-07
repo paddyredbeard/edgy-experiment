@@ -1,0 +1,25 @@
+# netlify.toml
+
+[dev]
+  framework = "#static"
+
+[build]
+  command = "echo No build for this site, we are living on the edge"
+  publish = "public"
+
+[[edge_functions]]
+  path = "/hello"
+  function = "hello"
+
+[[edge_functions]]
+  path = "/geo"
+  function = "geo"
+
+[[edge_functions]]
+  path = "/quote"
+  function = "quote"
+
+[[edge_functions]]
+  path = "/whereami"
+  function = "geo"
+
