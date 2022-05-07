@@ -10,5 +10,4 @@ export default async (request: Request, context: Context) => {
   */
 
   return context.json({ msg: "hello, world" });
-}
-
+};

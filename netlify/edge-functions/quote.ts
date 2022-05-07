@@ -7,5 +7,4 @@ export default async (request: Request, context: Context) => {
   const myQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
   return context.json({ quote: myQuote });
-}
-
+};
